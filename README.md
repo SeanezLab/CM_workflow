@@ -25,6 +25,24 @@ QTM manages everything by `project`. Projects are essentially workspaces in whic
 Should every session be a new project? Every timepoint?
 Projects are configured primarily by two files, a Project Automation Framework (PAF; `.paf` extension) file and an additional settings file (`.qtmproj` extension. Typically, this settings file (`.qtmproj`) is imported from a previous project becuase those settings don't change very often. QTM provides many preset PAF modules, but the `.paf` file can be edited to automate parts of the workflow
 #### Creating a New Project
+1.	Open QTM by clicking the following icon  
+2.	Click New project…
+3.	Enter project name
+a.	Default path is C:\Users\QTM\Documents\<project name>
+4.	Ensure Settings imported form another project is selected for “Base the new project on:” dropdown
+a.	In general, a new project should always be based on a previous project because a lot of the configuration remains the same (camera orientation, etc.).
+5.	Check the Use PAF module checkbox and select Gait
+a.	Other PAF module options server different purposes
+i.	Reportedly, the “Python” option doesn’t work too well
+ii.	What are other options and what are they used for?
+6.	Click OK
+ 
+
+7.	After clicking OK, you will be prompted to select a settings file
+a.	It’s recommended to use the file located at: C:\Users\QTM\Documents\Settings\ Settings.qtmproj, though most settings files should work since configuration of the cameras and other settings like that don’t actually change.
+
+ 
+
 
 #### Configuring a New Project
 ##### EMG Configuration
