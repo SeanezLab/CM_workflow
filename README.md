@@ -1,6 +1,4 @@
-# Workflow improvements to support cervical myelopathy (CM) studies
-
-# Table of Contents
+# CM Study Workflow Table of Contents
 1. [Overview](#overview)
 2. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
