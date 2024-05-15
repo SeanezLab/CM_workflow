@@ -53,10 +53,12 @@ Should every session be a new project? Every timepoint?
 #### Configuring a New Project
 Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.
 
-***If no EMGs or analog recording component are required:***
+***If no EMGs or analog components are required:***
 1. No additional configuration is necessary, skip to [calibration](#calibration) 
 
-***If using EMGs in conjunction with QTM:***
+
+##### EMG Configuration
+When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
 1. Start Delsys Control Utility by clicking the following icon  
 2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
 3. For each connected sensor:
@@ -81,28 +83,40 @@ Project configuration is dependent on the nature of all recording components, so
 
 ![Enable Delsys Trigno](assets/qtm_enable_emg.gif)
 
-8. Give a name to every EMG that is connected (name them by muscle, for instance)
-9. Uncheck the `Auxiliary data` checkbox for each sensor used.
-    - Auxiliary data is IMU data, but using QTM is often more accurate than IMU data from Delsys sensors, so we don’t typically collect it.
+8. Give a name to every EMG that is connected (sensor are typically named by corresponding muscle)
+9. Uncheck the `Auxiliary data` checkbox for each sensor used
+    - Auxiliary data is IMU data, but using QTM is often more accurate than IMU data from Delsys sensors, so we don’t typically collect it
 10.	Click the `Apply` button
-    - If analog sources are being used, move on to those configuration steps. Otherwise, move on to[synchronization](#synchronization)
+    - If analog sources are being used and haven't been configured, move on to [analog configuration](#analog-configuration). Otherwise, move on to [synchronization](#synchronization)
 
 ![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)
-
-
-
-
 ---
 
-##### EMG Configuration
-j
+##### Analog Configuration
+When using analog sources with QTM, the following steps apply.
+
+1. After clicking the gear icon to display settings, click `Input Devices` from the left-hand navigation pane
+2. Click the checkbox next to `USB-1608G (Serial: 01D99551)` (under the `Enabled`) column
+3. In the left-hand navigation pane, select `Input Devices > Analog Board`
+4. Click `Simultaneous start` in the `Sample Rate` section
+5. Change samples per second to same favorable value 
+    - What should this value be?  
+    
+![Enable analog sources](assets/atm_enable_analog.gif)
+
+7. Enable whichever analog channels are used by clicking the checkboxes in the `Channels` section
+    - These are analog channels that are not related to EMGs, so they may be different from EMGs in quantity and channel
+
+8. Click the `Apply` button
+    - If EMGs are being used and haven't been configured, move on to [EMG configuration](#emg-configuration). Otherwise, move on to [synchronization](#synchronization)  
+  
+![Enable analog channels](assets/atm_enable_channels.gif)
 ---
 
-##### Analog Source Configuration
+#### Synchronization
 
-##### Calibration
+#### Calibration
 
-##### Synchronization
 
 
 
