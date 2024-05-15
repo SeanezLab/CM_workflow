@@ -44,10 +44,22 @@ Projects are configured primarily by two files:
 ![Creation of new project in QTM](assets/qtm_new_project.gif)
  
 7.	After clicking OK, you will be prompted to select a settings (`.qtmproj`) file
-    -	For now, it’s recommended to use the file located at```C:\Users\QTM\Documents\Settings\Settings.qtmproj``` though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever).
-![Select the setting file located at C:\Users\QTM\Documents\Settings\Settings.qtmproj](assets/qtm_settings_file.png)
+    -	For now, it’s recommended to use the file located at```C:\Users\QTM\Documents\Settings\Settings.qtmproj``` though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever).  
+![Select the settings file](assets/qtm_settings_file.png)
 
 #### Configuring a New Project
+-	If no EMGs or analog recording component are required:
+    -	No additional configuration is necessary, skip to Calibration steps
+
+-	If using EMGs in conjunction with QTM:
+    1.  Start Delsys Control Utility by clicking the following icon  
+    2.	Pair sensors and verify connection (green in control utility indicates properly paired sensor)
+    3.	For each connected sensor:
+        1.	Click the gear icon
+        2.	Ensure sensor is in EMG only mode, have a sampling rate of 2148 Hz, and that the bandwidth is set to 10-850 Hz
+        3.	Click Apply and Close
+![Modify EMG settings](assets/trigno_sensor_config.gif)
+
 ##### EMG Configuration
 ##### Analog Source Configuration
 
