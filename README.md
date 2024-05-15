@@ -126,7 +126,7 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 
 
 ## Beginning a New Session
-After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps below:
+After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps in this section
 
 ### Create a New Session
 1. In Project data tree, click `Add > Patient`
@@ -138,39 +138,41 @@ After [configuration](#configuring-a-new-project) is complete, a new recording s
   
 ![Add patient](assets/qtm_add_patient.gif)
 
-2. In project data tree, ensure Subject ID folder is selected, then click `Add > Gait Session`
+2. In the `Project data tree` section, ensure the subject ID folder is selected, then click `Add > Gait Session`
     1. Enter height and weight of participant
     2. Click the `OK` button.
-        - A new directory will be added inside the subject ID directory displayed in the project data tree  
+        - A new directory will be added inside the subject ID directory displayed in the `Project data tree` section  
   
 ![Add gait session](assets/qtm_add_gait_session.gif)
 
-3. Click on the newly created directory in the project data tree, then click `Add > Markerless session`
+3. Click on the newly created directory in the `Project data tree` section, then click `Add > Markerless session`
     1. Change `Event Mode` to `No forceplate (automatic)`
     2. Click the `OK` button  
   
 ![Change event mode](assets/qtm_add_markerless_session.gif)
 
-4. Move on to [calibration](#calibration)
+The session is now ready for [calibration](#calibration)
+---
 
 ### Calibration
 1. After adding a [new markerless session](#create-a-new-session), click on one of the colored boxes and select `Start preview`
 2. If recording markerless video, click the `Video` button in the right-hand pane
-    1. In the `Streaming Video` section that appears, select `85 Hz`  
+    1. In the `Streaming Video` section that appears, ensure `85 Hz` is selected  
   
 ![Start preview](assets/qtm_start_preview.gif)
 
-3. Click the calibrate icon
+3. Click on the calibrate icon
     1. Increase the calibration time if calibrating a larger area (~60 seconds)
         - If only one person is performing the calibration, a calibration delay of ~10 seconds may be helpful to allow time to get in place
         - Sound notification is helpful for knowing when calibration is finished
-    3. Click `OK` and perform calibration  
+    2. Click `OK` and perform calibration  
   
 ![Calibration](assets/qtm_calibration.gif)
+---
 
 ### Session Settings
 After [calibration](#calibration) but before recording, the session settings will need to be modified. This only needs to happen once per session.
 1. Click on any colored box and select `Edit settings and capture`
-    1. Change `capture period` to well over expected amount of time for the trial
+    1. Change `Capture period` to well over expected amount of time for the trial
     2. Click the `Start` button to begin capture
 ![Set and start recording](assets/qtm_start_capture.gif)
