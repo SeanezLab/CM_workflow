@@ -1,5 +1,5 @@
-<a id="back-to-top"></a>
 # CM Study Workflow Table of Contents
+<a id="back-to-top"></a>
 
 1. [Overview](#overview)
 2. [QTM](#qtm)
