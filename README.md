@@ -41,10 +41,12 @@ Projects are configured primarily by two files:
     -	Reportedly, the “Python” option doesn’t work too well
     -	What are other options and what are they used for?
 6.	Click OK  
+  
 ![Creation of new project in QTM](assets/qtm_new_project.gif)
  
 7.	After clicking OK, you will be prompted to select a settings (`.qtmproj`) file
     -	For now, it’s recommended to use the file located at```C:\Users\QTM\Documents\Settings\Settings.qtmproj``` though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever).  
+  
 ![Select the settings file](assets/qtm_settings_file.png)
 
 #### Configuring a New Project
