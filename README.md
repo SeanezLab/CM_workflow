@@ -1,3 +1,4 @@
+<a name="back-to-top"></a>
 # CM Study Workflow Table of Contents
 1. [Overview](#overview)
 2. [QTM](#qtm)
@@ -50,6 +51,7 @@ Should every session be a new project? Every timepoint?
     ```C:\Users\QTM\Documents\Settings\Settings.qtmproj```
   
 ![Select the settings file](assets/qtm_settings_file.png)
+_[Back to Top](#back-to-top)_<br>
 ---
 
 ### Configuring a New Project
@@ -89,6 +91,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
     - If analog sources are being used and haven't been configured, move on to [analog configuration](#analog-configuration). Otherwise, move on to [synchronization](#synchronization)
 
 ![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)
+_[Back to Top](#back-to-top)_<br>
 ---
 
 #### Analog Configuration
@@ -109,6 +112,7 @@ When using analog sources with QTM, the following steps apply:
     - If EMGs are being used and haven't been configured, move on to [EMG configuration](#emg-configuration). Otherwise, move on to [synchronization](#synchronization)  
   
 ![Enable analog channels](assets/qtm_enable_channels.gif)
+_[Back to Top](#back-to-top)_<br>
 ---
 
 ### Synchronization
@@ -122,8 +126,8 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 6. Click the `OK` button to finish configuration
 
 ![Configuring synchronization settings](assets/qtm_synchronization.gif)
+_[Back to Top](#back-to-top)_<br>
 ---
-
 
 ## Beginning a New Session
 After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps in this section
@@ -152,6 +156,7 @@ After [configuration](#configuring-a-new-project) is complete, a new recording s
 ![Change event mode](assets/qtm_add_markerless_session.gif)
 
 The session is now ready for [calibration](#calibration)
+_[Back to Top](#back-to-top)_<br>
 ---
 
 ### Calibration
@@ -168,11 +173,15 @@ The session is now ready for [calibration](#calibration)
     2. Click `OK` and perform calibration  
   
 ![Calibration](assets/qtm_calibration.gif)
+_[Back to Top](#back-to-top)_<br>
 ---
 
 ### Session Settings
 After [calibration](#calibration) but before recording, the session settings will need to be modified. This only needs to happen once per session.
 1. Click on any colored box and select `Edit settings and capture`
-    1. Change `Capture period` to well over expected amount of time for the trial
-    2. Click the `Start` button to begin capture
+    1. Change `Capture Period` to well over expected amount of time for the trial
+    2. Click the `Start` button to begin capture  
+  
 ![Set and start recording](assets/qtm_start_capture.gif)
+_[Back to Top](#back-to-top)_<br>
+---
