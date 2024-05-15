@@ -6,7 +6,8 @@
         1. [Creating a New Project](#creating-a-new-project)
         2. [Configuring a New Project](#configuring-a-new-project)
             1. [EMG Configuration](#emg-configuration)
-            2. [Analog Source Configuration](#analog-source-configuration)
+            2. [Analog Configuration](#analog-configuration)
+            3. [Synchronization](#sychronization)
     4. [Beginning a New Session](#beginning-a-new-session)
         1. [Create a New Session](#create-a-new-session)
         2. [Calibration](#calibration)
@@ -16,7 +17,7 @@
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with cervical myelopathy (CM) studies: 
 - Qualisys Track Manager (QTM)
 - Theia
-- Visual3D.
+- Visual3D
 
 Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.  
 
@@ -119,7 +120,7 @@ When using analog sources with QTM, the following steps apply:
 ![Enable analog channels](assets/qtm_enable_channels.gif)  
 
 #### [Back to Top](#back-to-top)
-
+---
 
 ### Synchronization
 When using QTM with EMGs or analog sources, synchronization settings must be changed to ensure proper recording alignment.
@@ -134,7 +135,7 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 ![Configuring synchronization settings](assets/qtm_synchronization.gif)  
 
 #### [Back to Top](#back-to-top)
-
+---
 
 ## Beginning a New Session
 After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps in this section
