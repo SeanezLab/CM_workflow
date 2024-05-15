@@ -18,7 +18,7 @@
 ## Overview
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with CM studies: Qualisys Track Manager (QTM), Theia, and Visual3D.
 Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.
-
+---
 ## QTM
 ### Beginning a New Project
 QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.  
@@ -48,7 +48,7 @@ Projects are configured primarily by two files:
     -	For now, it’s recommended to use the file located at```C:\Users\QTM\Documents\Settings\Settings.qtmproj``` though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever).  
   
 ![Select the settings file](assets/qtm_settings_file.png)
-
+---
 #### Configuring a New Project
 -	If no EMGs or analog recording component are required:
     -	No additional configuration is necessary, skip to Calibration steps
@@ -62,8 +62,11 @@ Projects are configured primarily by two files:
         3.	Click Apply and Close  
   
 ![Modify EMG settings](assets/trigno_sensor_config.gif)
-
+---
 ##### EMG Configuration
+j
+---
+
 ##### Analog Source Configuration
 
 
