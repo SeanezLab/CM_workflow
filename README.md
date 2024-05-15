@@ -16,19 +16,19 @@
 
 
 ## Overview
+
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with CM studies: Qualisys Track Manager (QTM), Theia, and Visual3D.
-Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.
----
+Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.  
 ## QTM
 ### Beginning a New Project
 QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.  
-  
-Should every session be a new project? Every timepoint?  
   
 Projects are configured primarily by two files:
 - Project Automation Framework (PAF) file with a `.paf` extension. QTM provides many preset PAF modules, but the PAF file can be edited to automate parts of the workflow.
 - An additional settings file with a `.qtmproj` extension. Typically, this settings file is imported from a previous project becuase those settings don't change very often.  
 
+Should every session be a new project? Every timepoint?  
+---
 #### Creating a New Project
 1.	Open QTM by clicking the following icon  
 2.	Click the `New project…` button
@@ -50,16 +50,18 @@ Projects are configured primarily by two files:
 ![Select the settings file](assets/qtm_settings_file.png)
 ---
 #### Configuring a New Project
--	If no EMGs or analog recording component are required:
-    -	No additional configuration is necessary, skip to Calibration steps
+Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.
 
--	If using EMGs in conjunction with QTM:
-    1.  Start Delsys Control Utility by clicking the following icon  
-    2.	Pair sensors and verify connection (green in control utility indicates properly paired sensor)
-    3.	For each connected sensor:
-        1.	Click the gear icon
-        2.	Ensure sensor is in EMG only mode, have a sampling rate of 2148 Hz, and that the bandwidth is set to 10-850 Hz
-        3.	Click Apply and Close  
+- If no EMGs or analog recording component are required:
+    1. No additional configuration is necessary, skip to Calibration steps
+
+- If using EMGs in conjunction with QTM:
+    1. Start Delsys Control Utility by clicking the following icon  
+    2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
+    3. For each connected sensor:
+        1. Click the gear icon
+        2. Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
+        3. Click `Apply and Close`  
   
 ![Modify EMG settings](assets/trigno_sensor_config.gif)
 ---
