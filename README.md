@@ -1,6 +1,6 @@
 # Workflow improvements to support cervical myelopathy (CM) studies
 
-## Table of Contents
+# Table of Contents
 1. [Overview](#overview)
 2. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
@@ -14,12 +14,12 @@
 5. [Section 4](#section-4)
 6. [Section 5](#section-5)
 
-## Overview
+# Overview
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with CM studies: Qualisys Track Manager (QTM), Theia, and Visual3D.
 Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.  
 
-## QTM
-### Beginning a New Project
+# QTM
+## Beginning a New Project
 QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.  
   
 Projects are configured primarily by two files:
@@ -29,7 +29,7 @@ Projects are configured primarily by two files:
 Should every session be a new project? Every timepoint?  
 ---
 
-#### Creating a New Project
+### Creating a New Project
 1.	Open QTM by clicking the following icon  
 2.	Click the `New project…` button
 3.	Enter a descriptive project name
@@ -50,14 +50,14 @@ Should every session be a new project? Every timepoint?
 ![Select the settings file](assets/qtm_settings_file.png)
 ---
 
-#### Configuring a New Project
+### Configuring a New Project
 Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.
 
 ***If no EMGs or analog components are required:***
 1. No additional configuration is necessary, skip to [calibration](#calibration) 
 
 
-##### EMG Configuration
+#### EMG Configuration
 When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
 1. Start Delsys Control Utility by clicking the following icon  
 2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
@@ -92,7 +92,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
 ![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)
 ---
 
-##### Analog Configuration
+#### Analog Configuration
 When using analog sources with QTM, the following steps apply.
 
 1. After clicking the gear icon to display settings, click `Input Devices` from the left-hand navigation pane
@@ -113,14 +113,6 @@ When using analog sources with QTM, the following steps apply.
 ![Enable analog channels](assets/qtm_enable_channels.gif)
 ---
 
-#### Synchronization
+### Synchronization
 
-#### Calibration
-
-
-
-
-
-
-
-
+### Calibration
