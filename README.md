@@ -14,11 +14,10 @@
 5. [Section 4](#section-4)
 6. [Section 5](#section-5)
 
-
 ## Overview
-
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with CM studies: Qualisys Track Manager (QTM), Theia, and Visual3D.
 Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.  
+
 ## QTM
 ### Beginning a New Project
 QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.  
@@ -29,6 +28,7 @@ Projects are configured primarily by two files:
 
 Should every session be a new project? Every timepoint?  
 ---
+
 #### Creating a New Project
 1.	Open QTM by clicking the following icon  
 2.	Click the `New project…` button
@@ -49,11 +49,12 @@ Should every session be a new project? Every timepoint?
   
 ![Select the settings file](assets/qtm_settings_file.png)
 ---
+
 #### Configuring a New Project
 Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.
 
 - If no EMGs or analog recording component are required:
-    1. No additional configuration is necessary, skip to Calibration steps
+    1. No additional configuration is necessary, skip to Calibration steps  
 
 - If using EMGs in conjunction with QTM:
     1. Start Delsys Control Utility by clicking the following icon  
@@ -61,10 +62,17 @@ Project configuration is dependent on the nature of all recording components, so
     3. For each connected sensor:
         1. Click the gear icon
         2. Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
-        3. Click `Apply and Close`  
-  
-![Modify EMG settings](assets/trigno_sensor_config.gif)
+        3. Click the `Apply and Close` button  
+    ![Modify EMG settings](assets/trigno_sensor_config.gif)  
+    4. Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
+        1. Click `Input Devices` in the left-hand navigation pane
+        2. If `Delsys Trigno` is not in the displayed list:
+            1.	Click the `Add Device` button
+            2.	Select `Delsys Trigno EMG` from the dropdown menu
+            3.	Click `OK` and `Delsys Tringo` will appear unchecked in the list of input devices
+![Add Delsys Trigno EMGs](assets/qtm_add_delsys.gif)
 ---
+
 ##### EMG Configuration
 j
 ---
