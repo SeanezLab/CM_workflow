@@ -43,7 +43,7 @@ Should every session be a new project? Every timepoint?
 ---
 
 ### Creating a New Project
-1.	Open QTM by clicking the following icon ![QTM icon](assets/qtm_icon.png)
+1.	Open QTM by clicking on the ![QTM icon](assets/qtm_icon.png) icon
 2.	Click the `New project…` button
 3.	Enter a descriptive project name
     -   In most cases, the default project path, `C:\Users\QTM\Documents\<project name>`, will work fine.
@@ -73,7 +73,7 @@ Project configuration is dependent on the nature of all recording components, so
 
 #### EMG Configuration
 When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
-1. Start Delsys Control Utility by clicking the following icon ![Trigno icon](assets/trigno_icon.png) 
+1. Start Delsys Control Utility by clicking the ![Trigno icon](assets/trigno_icon.png) icon
 2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
 3. For each connected sensor:
     1. Click the gear icon
@@ -183,7 +183,7 @@ The session is now ready for [calibration](#calibration)
   
 ![Start preview](assets/qtm_start_preview.gif)
 
-3. Click on the calibrate icon ![Calibrate icon](assets/qtm_calibration_icon.png)
+3. Open the calibration menu by clicking on the ![Calibrate icon](assets/qtm_calibration_icon.png) icon
     1. Increase the calibration time if calibrating a larger area (~60 seconds)
         - If only one person is performing the calibration, a calibration delay of ~10 seconds may be helpful to allow time to get in place
         - Sound notification is helpful for knowing when calibration is finished
