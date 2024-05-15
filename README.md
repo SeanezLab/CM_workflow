@@ -119,7 +119,7 @@ When using analog sources with QTM, the following steps apply:
 ![Enable analog channels](assets/qtm_enable_channels.gif)  
 
 #### [Back to Top](#back-to-top)
----
+
 
 ### Synchronization
 When using QTM with EMGs or analog sources, synchronization settings must be changed to ensure proper recording alignment.
@@ -134,7 +134,7 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 ![Configuring synchronization settings](assets/qtm_synchronization.gif)  
 
 #### [Back to Top](#back-to-top)
----
+
 
 ## Beginning a New Session
 After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps in this section
