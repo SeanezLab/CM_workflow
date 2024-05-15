@@ -6,11 +6,10 @@
         2. [Configuring a New Project](#configuring-a-new-project)
             1. [EMG Configuration](#emg-configuration)
             2. [Analog Source Configuration](#analog-source-configuration)
-4. [Section 3](#section-3)
-    1. [Subsection 3.1](#subsection-31)
-    2. [Subsection 3.2](#subsection-32)
-5. [Section 4](#section-4)
-6. [Section 5](#section-5)
+    4. [Beginning a New Session](#beginning-a-new-session)
+        1. [Create a New Session](#create-a-new-session)
+        2. [Calibration](#calibration)
+        3. [Session Settings](#session-settings)
 
 # Overview
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with cervical myelopathy (CM) studies: 
@@ -54,7 +53,8 @@ Should every session be a new project? Every timepoint?
 ---
 
 ### Configuring a New Project
-Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs. ***If no EMGs or analog components are required*** then no additional configuration is necessary. Move on to [calibration](#calibration) 
+Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.   
+***If no EMGs or analog components are required then no additional configuration is necessary.*** Move on to [beginning a session](#beginning-a-session) 
 
 #### EMG Configuration
 When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
@@ -94,7 +94,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
 #### Analog Configuration
 When using analog sources with QTM, the following steps apply:
 1. After clicking the gear icon to display settings, click `Input Devices` from the left-hand navigation pane
-2. Click the checkbox next to `USB-1608G (Serial: 01D99551)` (under the `Enabled`) column
+2. Click the checkbox next to `USB-1608G (Serial: 01D99551)` (under the `Enabled` column)
 3. In the left-hand navigation pane, select `Input Devices > Analog Boards > USB-1608G (Serial: 01D99551)`
 4. In the `Sample rate` section, click the `Simultaneous start` radio button
 5. Change `Sample rate`/`samples per second` to some favorable value 
@@ -116,12 +116,61 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 
 1. Click the gear icon to show the settings menu
 2. In the left-hand navigation pane, select `Input Devices > Camera System > Synchronization`
-3. In the `Under Wireless/software Trigger` section, change the `Function` dropdown menu to `Start capture`
-4. In the `Trigger port(s)` section, change the `Trig NO: Function` dropdown to `Start capture`
+3. In the `Wireless/software Trigger*` section, change the `Function` dropdown to `Start capture`
+4. In the `Trigger port(s)*` section, change the `Trig NO: Function` dropdown to `Start capture`
 5. Click the `Apply` button
 6. Click the `OK` button to finish configuration
 
 ![Configuring synchronization settings](assets/qtm_synchronization.gif)
 ---
 
+
+## Beginning a New Session
+After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps below:
+
+### Create a New Session
+1. In Project data tree, click `Add > Patient`
+    1. Enter patient ID
+        - This will be the subject ID as determined by the study
+    2. Enter “first” as first name (do not use name of participant)
+    3. Enter “last” as last name (do not use name of participant)
+    4. Click the `OK` button  
+  
+![Add patient](assets/qtm_add_patient.gif)
+
+2. In project data tree, ensure Subject ID folder is selected, then click `Add > Gait Session`
+    1. Enter height and weight of participant
+    2. Click the `OK` button.
+        - A new directory will be added inside the subject ID directory displayed in the project data tree  
+  
+![Add gait session](assets/qtm_add_gait_session.gif)
+
+3. Click on the newly created directory in the project data tree, then click `Add > Markerless session`
+    1. Change `Event Mode` to `No forceplate (automatic)`
+    2. Click the `OK` button  
+  
+![Change event mode](assets/qtm_add_markerless_session.gif)
+
+4. Move on to [calibration](#calibration)
+
 ### Calibration
+1. After adding a [new markerless session](#create-a-new-session), click on one of the colored boxes and select `Start preview`
+2. If recording markerless video, click the `Video` button in the right-hand pane
+    1. In the `Streaming Video` section that appears, select `85 Hz`  
+  
+![Start preview](assets/qtm_start_preview.gif)
+
+3. Click the calibrate icon
+    1. Increase the calibration time if calibrating a larger area (~60 seconds)
+        - If only one person is performing the calibration, a calibration delay of ~10 seconds may be helpful to allow time to get in place
+        - Sound notification is helpful for knowing when calibration is finished
+    3. Click `OK` and perform calibration  
+  
+![Calibration](assets/qtm_calibration.gif)
+
+### Session Settings
+After [calibration](#calibration) but before recording, the session settings will need to be modified. This only needs to happen once per session.
+1. Click on any colored box and select `Edit settings and capture`
+    1. Change `capture period` to well over expected amount of time for the trial
+    2. Click the `Start` button to begin capture
+![Set and start recording](assets/qtm_start_capture.gif)
