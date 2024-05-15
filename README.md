@@ -102,7 +102,7 @@ When using analog sources with QTM, the following steps apply.
 5. Change samples per second to same favorable value 
     - What should this value be?  
     
-![Enable analog sources](assets/atm_enable_analog.gif)
+![Enable analog sources](assets/qtm_enable_analog.gif)
 
 7. Enable whichever analog channels are used by clicking the checkboxes in the `Channels` section
     - These are analog channels that are not related to EMGs, so they may be different from EMGs in quantity and channel
@@ -110,7 +110,7 @@ When using analog sources with QTM, the following steps apply.
 8. Click the `Apply` button
     - If EMGs are being used and haven't been configured, move on to [EMG configuration](#emg-configuration). Otherwise, move on to [synchronization](#synchronization)  
   
-![Enable analog channels](assets/atm_enable_channels.gif)
+![Enable analog channels](assets/qtm_enable_channels.gif)
 ---
 
 #### Synchronization
