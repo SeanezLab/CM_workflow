@@ -12,14 +12,20 @@
         1. [Create a New Session](#create-a-new-session)
         2. [Calibration](#calibration)
         3. [Session Settings](#session-settings)
+3. [Theia](#theia)
+    1. [First](#)
+4. [Visual3D](#visual3d)
+    1. [First](#)
 
 # Overview
 Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with cervical myelopathy (CM) studies: 
-- Qualisys Track Manager (QTM)
-- Theia
-- Visual3D
+- <a href="https://www.qualisys.com/software/qualisys-track-manager/">Qualisys Track Manager (QTM)</a>
+- <a href="https://www.theiamarkerless.ca/">Theia Markerless</a>
+- <a href="https://wiki.has-motion.com/index.php/Visual3D_Overview">Visual3D</a>
 
-Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.  
+QTM calibrates and records the experiment session while Theia tracks and post-processes the captured movement data (joint detection, labeling, etc.). The data is then exported to Visual3D for additional analysis.
+
+Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instructional guides.  
 
 # QTM
 ## Beginning a New Project
@@ -194,5 +200,13 @@ After [calibration](#calibration) but before recording, the session settings wil
   
 ![Set and start recording](assets/qtm_start_capture.gif)  
 
+#### [Back to Top](#back-to-top)
+---
+## Theia
+### First
+#### [Back to Top](#back-to-top)
+---
+## Visual3D
+### First
 #### [Back to Top](#back-to-top)
 ---
