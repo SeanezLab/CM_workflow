@@ -57,21 +57,28 @@ Project configuration is dependent on the nature of all recording components, so
     1. No additional configuration is necessary, skip to Calibration steps  
 
 - If using EMGs in conjunction with QTM:
-    1. Start Delsys Control Utility by clicking the following icon  
-    2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
-    3. For each connected sensor:
-        1. Click the gear icon
-        2. Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
-        3. Click the `Apply and Close` button
-    <center>          
-        <img src="assets/trigno_sensor_config.gif" alt="Modify EMG settings">  
-    </center>    
-    4. Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
-        1. Click `Input Devices` in the left-hand navigation pane
-        2. If `Delsys Trigno` is not in the displayed list:
-            1.	Click the `Add Device` button
-            2.	Select `Delsys Trigno EMG` from the dropdown menu
-            3.	Click `OK` and `Delsys Tringo` will appear unchecked in the list of input devices
+<ol>
+    <li> Start Delsys Control Utility by clicking the following icon</li>
+    <li> Pair sensors and verify connection (green in control utility indicates properly paired sensor)</li>
+    <li> For each connected sensor:</li>
+        <ol>
+            <li> Click the gear icon</li>
+            <li> Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`</li>
+            <li> Click the `Apply and Close` button</li>
+        </ol>    
+![Modify EMG settings](assets/trigno_sensor_config.gif)
+    <li>Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
+        <ol>
+            <li>Click `Input Devices` in the left-hand navigation pane</li>
+            <li>If `Delsys Trigno` is not in the displayed list:</li>
+                <ol>
+                    <li>Click the `Add Device` button</li>
+                    <li>Select `Delsys Trigno EMG` from the dropdown menu</li>
+                    <li>Click `OK` and `Delsys Tringo` will appear unchecked in the list of input devices</li>
+                </ol>
+        </ol>
+</ol>
+
 ![Add Delsys Trigno EMGs](assets/qtm_add_delsys.gif)
 ---
 
