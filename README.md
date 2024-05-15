@@ -53,10 +53,10 @@ Should every session be a new project? Every timepoint?
 #### Configuring a New Project
 Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.
 
-If no EMGs or analog recording component are required:
+<u>If no EMGs or analog recording component are required:</u>
 1. No additional configuration is necessary, skip to Calibration steps  
 
-If using EMGs in conjunction with QTM:
+<u>If using EMGs in conjunction with QTM:</u>
 1. Start Delsys Control Utility by clicking the following icon  
 2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
 3. For each connected sensor:
