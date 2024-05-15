@@ -21,29 +21,31 @@ Eventually, this repo will contain automation-focused improvements to the flow o
 
 ## QTM
 ### Beginning a New Project
-QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.
-Should every session be a new project? Every timepoint?
-Projects are configured primarily by two files, a Project Automation Framework (PAF; `.paf` extension) file and an additional settings file (`.qtmproj` extension. Typically, this settings file (`.qtmproj`) is imported from a previous project becuase those settings don't change very often. QTM provides many preset PAF modules, but the `.paf` file can be edited to automate parts of the workflow
+QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.  
+  
+Should every session be a new project? Every timepoint?  
+  
+Projects are configured primarily by two files:
+    - Project Automation Framework (PAF) file with a `.paf` extension. QTM provides many preset PAF modules, but the PAF file can be edited to automate parts of the workflow.
+    - An additional settings file with a `.qtmproj` extension. Typically, this settings file is imported from a previous project becuase those settings don't change very often.  
+
 #### Creating a New Project
 1.	Open QTM by clicking the following icon  
-2.	Click New project…
+2.	Click `New project…`
 3.	Enter project name
-    -   Default path is C:\Users\QTM\Documents\<project name>
-4.	Ensure Settings imported form another project is selected for “Base the new project on:” dropdown
+    -   Default path is `C:\Users\QTM\Documents\<project name>`
+4.	Ensure `Settings imported form another project` is selected for `Base the new project on:` dropdown
     -	In general, a new project should always be based on a previous project because a lot of the configuration remains the same (camera orientation, etc.).
-5.	Check the Use PAF module checkbox and select Gait
-    -	Other PAF module options serve different purposes
+5.	Check the `Use PAF module` checkbox and select `Gait`
+    -	Other PAF modules serve different purposes
     -	Reportedly, the “Python” option doesn’t work too well
     -	What are other options and what are they used for?
 6.	Click OK
 ![Creation of new project in QTM](assets/qtm_new_project.gif)
  
-
-7.	After clicking OK, you will be prompted to select a settings file
-a.	It’s recommended to use the file located at: C:\Users\QTM\Documents\Settings\ Settings.qtmproj, though most settings files should work since configuration of the cameras and other settings like that don’t actually change.
-
- 
-
+7.	After clicking OK, you will be prompted to select a settings (`.qtmproj`) file
+    -	For now, it’s recommended to use the file located at: `C:\Users\QTM\Documents\Settings\ Settings.qtmproj`, though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever).
+![Select the setting file located at C:\Users\QTM\Documents\Settings\ Settings.qtmproj](qtm_settings_file.png)
 
 #### Configuring a New Project
 ##### EMG Configuration
