@@ -1,6 +1,6 @@
-<a name="back-to-top"></a>
-
+<a id="back-to-top"></a>
 # CM Study Workflow Table of Contents
+
 1. [Overview](#overview)
 2. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
@@ -31,7 +31,7 @@ Projects are primarily configured by two files:
 
 Should every session be a new project? Every timepoint?  
   
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 ### Creating a New Project
@@ -55,13 +55,13 @@ _[Back to Top](#back-to-top)_<br>
   
 ![Select the settings file](assets/qtm_settings_file.png)  
   
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 ### Configuring a New Project
-Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.   
-***If no EMGs or analog components are required then no additional configuration is necessary.***  
-Move on to [beginning a session](#beginning-a-session) 
+Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.  
+  
+*If no EMGs or analog components are required, move on to [beginning a new session](#beginning-a-new-session).* No additional configuration will be necessary.
 
 #### EMG Configuration
 When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
@@ -97,7 +97,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
 
 ![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)  
 
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 #### Analog Configuration
@@ -119,7 +119,7 @@ When using analog sources with QTM, the following steps apply:
   
 ![Enable analog channels](assets/qtm_enable_channels.gif)  
 
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 ### Synchronization
@@ -134,7 +134,7 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 
 ![Configuring synchronization settings](assets/qtm_synchronization.gif)  
 
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 ## Beginning a New Session
@@ -165,7 +165,7 @@ After [configuration](#configuring-a-new-project) is complete, a new recording s
 
 The session is now ready for [calibration](#calibration)  
 
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 ### Calibration
@@ -183,7 +183,7 @@ _[Back to Top](#back-to-top)_<br>
   
 ![Calibration](assets/qtm_calibration.gif)  
 
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
 
 ### Session Settings
@@ -194,5 +194,5 @@ After [calibration](#calibration) but before recording, the session settings wil
   
 ![Set and start recording](assets/qtm_start_capture.gif)  
 
-_[Back to Top](#back-to-top)_<br>
+#### [Back to Top](#back-to-top)
 ---
