@@ -63,6 +63,7 @@ Project configuration is dependent on the nature of all recording components, so
     1. Click the gear icon
     2. Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
     3. Click the `Apply and Close` button  
+   
 ![Modify EMG settings](assets/trigno_sensor_config.gif)
 
 4. Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
@@ -70,8 +71,15 @@ Project configuration is dependent on the nature of all recording components, so
     2. If `Delsys Trigno` is not in the displayed list:
         1.	Click the `Add Device` button
         2.	Select `Delsys Trigno EMG` from the dropdown menu
-        3.	Click `OK` and `Delsys Tringo` will appear unchecked in the list of input devices
+        3.	Click `OK` and `Delsys Tringo` will appear unchecked in the list of input devices  
+  
 ![Add Delsys Trigno EMGs](assets/qtm_add_delsys.gif)
+
+5. Click the checkbox next to `Delsys Trigno` under the `Enable` column
+6. From the left-hand navigation pane, select `Input Devices > EMGs > Delsys Trigno`
+7. Ensure all sensors are connected (green `OK` should appear by each port in the `Connection Settings` section)
+
+![Enable Delsys Trigno](assets/qtm_enable_emg.gif)
 ---
 
 ##### EMG Configuration
