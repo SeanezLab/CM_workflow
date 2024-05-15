@@ -7,7 +7,7 @@
         2. [Configuring a New Project](#configuring-a-new-project)
             1. [EMG Configuration](#emg-configuration)
             2. [Analog Configuration](#analog-configuration)
-            3. [Synchronization](#sychronization)
+            3. [Synchronization](#synchronization)
     4. [Beginning a New Session](#beginning-a-new-session)
         1. [Create a New Session](#create-a-new-session)
         2. [Calibration](#calibration)
