@@ -75,11 +75,23 @@ Project configuration is dependent on the nature of all recording components, so
   
 ![Add Delsys Trigno EMGs](assets/qtm_add_delsys.gif)
 
-5. Click the checkbox next to `Delsys Trigno` under the `Enable` column
+5. Click the checkbox next to `Delsys Trigno` (under the `Enabled` column)
 6. From the left-hand navigation pane, select `Input Devices > EMGs > Delsys Trigno`
 7. Ensure all sensors are connected (green `OK` should appear by each port in the `Connection Settings` section)
 
 ![Enable Delsys Trigno](assets/qtm_enable_emg.gif)
+
+8. Give a name to every EMG that is connected (name them by muscle, for instance)
+9. Uncheck the `Auxiliary data` checkbox for each sensor used.
+    - Auxiliary data is IMU data, but using QTM is often more accurate than IMU data from Delsys sensors, so we don’t typically collect it.
+10.	Click the `Apply` button
+    - If analog sources are being used, move on to those configuration steps. Otherwise, move on to[synchronization](#synchronization)
+
+![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)
+
+
+
+
 ---
 
 ##### EMG Configuration
@@ -89,6 +101,8 @@ j
 ##### Analog Source Configuration
 
 ##### Calibration
+
+##### Synchronization
 
 
 
