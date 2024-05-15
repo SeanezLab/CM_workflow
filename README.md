@@ -28,14 +28,15 @@ Projects are configured primarily by two files, a Project Automation Framework (
 1.	Open QTM by clicking the following icon  
 2.	Click New project…
 3.	Enter project name
-a.	Default path is C:\Users\QTM\Documents\<project name>
+    -   Default path is C:\Users\QTM\Documents\<project name>
 4.	Ensure Settings imported form another project is selected for “Base the new project on:” dropdown
-a.	In general, a new project should always be based on a previous project because a lot of the configuration remains the same (camera orientation, etc.).
+    -	In general, a new project should always be based on a previous project because a lot of the configuration remains the same (camera orientation, etc.).
 5.	Check the Use PAF module checkbox and select Gait
-a.	Other PAF module options server different purposes
-i.	Reportedly, the “Python” option doesn’t work too well
-ii.	What are other options and what are they used for?
+    -	Other PAF module options serve different purposes
+    -	Reportedly, the “Python” option doesn’t work too well
+    -	What are other options and what are they used for?
 6.	Click OK
+![Creation of new project in QTM](assets/qtm_new_project.gif)
  
 
 7.	After clicking OK, you will be prompted to select a settings file
