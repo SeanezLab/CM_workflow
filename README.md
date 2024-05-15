@@ -166,7 +166,7 @@ After [configuration](#configuring-a-new-project) is complete, a new recording s
 ![Add gait session](assets/qtm_add_gait_session.gif)
 
 3. Click on the newly created directory in the `Project data tree` section, then click `Add > Markerless session`
-    1. Change `Event Mode` to `No forceplate (automatic)`
+    1. Change `Event mode` to `No forceplate (automatic)`
     2. Click the `OK` button  
   
 ![Change event mode](assets/qtm_add_markerless_session.gif)
