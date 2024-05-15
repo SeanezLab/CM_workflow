@@ -33,9 +33,9 @@ QTM manages everything by `project`. Projects are essentially workspaces in whic
   
 Projects are primarily configured by two files:
 - Project Automation Framework (PAF) file with a `.paf` extension.
-    - QTM provides many preset PAF modules, but the PAF file can also be edited to automate parts of the workflow.
+    - QTM provides preset PAF modules, but the PAF file can also be edited to automate parts of the workflow.
 - An additional settings file with a `.qtmproj` extension.
-    - Typically, this settings file is imported from a previous project becuase those settings don't change very often.  
+    - Typically, this settings file is imported from a previous project becuase settings in this file don't change very often.  
 
 Should every session be a new project? Every timepoint?  
   
