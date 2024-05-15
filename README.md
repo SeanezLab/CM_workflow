@@ -1,5 +1,5 @@
-<a name="back-to-top"></a>
 # CM Study Workflow Table of Contents
+<a name="back-to-top"></a>
 1. [Overview](#overview)
 2. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
@@ -29,6 +29,7 @@ Projects are primarily configured by two files:
 - An additional settings file with a `.qtmproj` extension. Typically, this settings file is imported from a previous project becuase those settings don't change very often.  
 
 Should every session be a new project? Every timepoint?
+_[Back to Top](#back-to-top)_<br>
 ---
 
 ### Creating a New Project
@@ -50,7 +51,7 @@ Should every session be a new project? Every timepoint?
     -	For now, it’s recommended to use the file at the location below, though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever):  
     ```C:\Users\QTM\Documents\Settings\Settings.qtmproj```
   
-![Select the settings file](assets/qtm_settings_file.png)
+![Select the settings file](assets/qtm_settings_file.png)  
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -90,7 +91,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
 10.	Click the `Apply` button
     - If analog sources are being used and haven't been configured, move on to [analog configuration](#analog-configuration). Otherwise, move on to [synchronization](#synchronization)
 
-![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)
+![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)  
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -111,7 +112,7 @@ When using analog sources with QTM, the following steps apply:
 8. Click the `Apply` button
     - If EMGs are being used and haven't been configured, move on to [EMG configuration](#emg-configuration). Otherwise, move on to [synchronization](#synchronization)  
   
-![Enable analog channels](assets/qtm_enable_channels.gif)
+![Enable analog channels](assets/qtm_enable_channels.gif)  
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -125,7 +126,7 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 5. Click the `Apply` button
 6. Click the `OK` button to finish configuration
 
-![Configuring synchronization settings](assets/qtm_synchronization.gif)
+![Configuring synchronization settings](assets/qtm_synchronization.gif)   
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -155,7 +156,7 @@ After [configuration](#configuring-a-new-project) is complete, a new recording s
   
 ![Change event mode](assets/qtm_add_markerless_session.gif)
 
-The session is now ready for [calibration](#calibration)
+The session is now ready for [calibration](#calibration)  
 _[Back to Top](#back-to-top)_<br>
 ---
 
