@@ -1,6 +1,5 @@
-# CM Study Workflow Table of Contents
 <a id="back-to-top"></a>
-
+# CM Study Workflow Table of Contents
 1. [Overview](#overview)
 2. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
