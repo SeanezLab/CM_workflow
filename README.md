@@ -96,14 +96,14 @@ When using analog sources with QTM, the following steps apply:
 1. After clicking the gear icon to display settings, click `Input Devices` from the left-hand navigation pane
 2. Click the checkbox next to `USB-1608G (Serial: 01D99551)` (under the `Enabled`) column
 3. In the left-hand navigation pane, select `Input Devices > Analog Boards > USB-1608G (Serial: 01D99551)`
-4. Click the `Simultaneous start` radio button in the `Sample rate` section
+4. In the `Sample rate` section, click the `Simultaneous start` radio button
 5. Change `Sample rate`/`samples per second` to some favorable value 
     - What should this value be?  
     
 ![Enable analog sources](assets/qtm_enable_analog.gif)
 
-7. Enable whichever analog channels are used by clicking the checkboxes in the `Channels` section
-    - These are analog channels that are not related to EMGs, so they may be different from EMGs in quantity and channel
+7. In the `Channels` section, enable whichever analog channels are used by clicking the corresponding checkbox in the `Channel no` column
+    - These analog channels are not related to EMGs, so they may be different from EMGs in quantity and channel number
 
 8. Click the `Apply` button
     - If EMGs are being used and haven't been configured, move on to [EMG configuration](#emg-configuration). Otherwise, move on to [synchronization](#synchronization)  
@@ -112,5 +112,16 @@ When using analog sources with QTM, the following steps apply:
 ---
 
 ### Synchronization
+When using QTM with EMGs or analog sources, synchronization settings must be changed to ensure proper recording alignment.
+
+1. Click the gear icon to show the settings menu
+2. In the left-hand navigation pane, select `Input Devices > Camera System > Synchronization`
+3. In the `Under Wireless/software Trigger` section, change the `Function` dropdown menu to `Start capture`
+4. In the `Trigger port(s)` section, change the `Trig NO: Function` dropdown to `Start capture`
+5. Click the `Apply` button
+6. Click the `OK` button to finish configuration
+
+![Configuring synchronization settings](assets/qtm_synchronization.gif)
+---
 
 ### Calibration
