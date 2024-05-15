@@ -1,5 +1,6 @@
-# CM Study Workflow Table of Contents
 <a name="back-to-top"></a>
+
+# CM Study Workflow Table of Contents
 1. [Overview](#overview)
 2. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
@@ -28,7 +29,8 @@ Projects are primarily configured by two files:
 - Project Automation Framework (PAF) file with a `.paf` extension. QTM provides many preset PAF modules, but the PAF file can also be edited to automate parts of the workflow.
 - An additional settings file with a `.qtmproj` extension. Typically, this settings file is imported from a previous project becuase those settings don't change very often.  
 
-Should every session be a new project? Every timepoint?
+Should every session be a new project? Every timepoint?  
+  
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -52,12 +54,14 @@ _[Back to Top](#back-to-top)_<br>
     ```C:\Users\QTM\Documents\Settings\Settings.qtmproj```
   
 ![Select the settings file](assets/qtm_settings_file.png)  
+  
 _[Back to Top](#back-to-top)_<br>
 ---
 
 ### Configuring a New Project
 Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.   
-***If no EMGs or analog components are required then no additional configuration is necessary.*** Move on to [beginning a session](#beginning-a-session) 
+***If no EMGs or analog components are required then no additional configuration is necessary.***  
+Move on to [beginning a session](#beginning-a-session) 
 
 #### EMG Configuration
 When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
@@ -92,6 +96,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
     - If analog sources are being used and haven't been configured, move on to [analog configuration](#analog-configuration). Otherwise, move on to [synchronization](#synchronization)
 
 ![Uncheck auxiliary data](assets/qtm_uncheck_aux.gif)  
+
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -113,6 +118,7 @@ When using analog sources with QTM, the following steps apply:
     - If EMGs are being used and haven't been configured, move on to [EMG configuration](#emg-configuration). Otherwise, move on to [synchronization](#synchronization)  
   
 ![Enable analog channels](assets/qtm_enable_channels.gif)  
+
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -126,7 +132,8 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 5. Click the `Apply` button
 6. Click the `OK` button to finish configuration
 
-![Configuring synchronization settings](assets/qtm_synchronization.gif)   
+![Configuring synchronization settings](assets/qtm_synchronization.gif)  
+
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -157,6 +164,7 @@ After [configuration](#configuring-a-new-project) is complete, a new recording s
 ![Change event mode](assets/qtm_add_markerless_session.gif)
 
 The session is now ready for [calibration](#calibration)  
+
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -173,7 +181,8 @@ _[Back to Top](#back-to-top)_<br>
         - Sound notification is helpful for knowing when calibration is finished
     2. Click `OK` and perform calibration  
   
-![Calibration](assets/qtm_calibration.gif)
+![Calibration](assets/qtm_calibration.gif)  
+
 _[Back to Top](#back-to-top)_<br>
 ---
 
@@ -183,6 +192,7 @@ After [calibration](#calibration) but before recording, the session settings wil
     1. Change `Capture Period` to well over expected amount of time for the trial
     2. Click the `Start` button to begin capture  
   
-![Set and start recording](assets/qtm_start_capture.gif)
+![Set and start recording](assets/qtm_start_capture.gif)  
+
 _[Back to Top](#back-to-top)_<br>
 ---
