@@ -57,16 +57,15 @@ Project configuration is dependent on the nature of all recording components, so
     1. No additional configuration is necessary, skip to Calibration steps  
 
 - If using EMGs in conjunction with QTM:
-    <ol>
+<ol>
     <li> Start Delsys Control Utility by clicking the following icon</li>
     <li> Pair sensors and verify connection (green in control utility indicates properly paired sensor)</li>
     <li> For each connected sensor:</li>
     <ol>
-    <li> Click the gear icon</li>
-    <li> Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`</li>
-    <li> Click the `Apply and Close` button</li>
+        <li> Click the gear icon</li>
+        <li> Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`</li>
+        <li> Click the `Apply and Close` button</li>
     </ol>    
-![Modify EMG settings](assets/trigno_sensor_config.gif)
     <li>Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
         <ol>
             <li>Click `Input Devices` in the left-hand navigation pane</li>
@@ -78,6 +77,8 @@ Project configuration is dependent on the nature of all recording components, so
                 </ol>
         </ol>
 </ol>
+
+![Modify EMG settings](assets/trigno_sensor_config.gif)
 
 ![Add Delsys Trigno EMGs](assets/qtm_add_delsys.gif)
 ---
