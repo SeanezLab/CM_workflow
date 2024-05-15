@@ -40,7 +40,7 @@ Projects are configured primarily by two files:
     -	Other PAF modules serve different purposes
     -	Reportedly, the “Python” option doesn’t work too well
     -	What are other options and what are they used for?
-6.	Click OK
+6.	Click OK  
 ![Creation of new project in QTM](assets/qtm_new_project.gif)
  
 7.	After clicking OK, you will be prompted to select a settings (`.qtmproj`) file
@@ -57,7 +57,7 @@ Projects are configured primarily by two files:
     3.	For each connected sensor:
         1.	Click the gear icon
         2.	Ensure sensor is in EMG only mode, have a sampling rate of 2148 Hz, and that the bandwidth is set to 10-850 Hz
-        3.	Click Apply and Close
+        3.	Click Apply and Close  
 ![Modify EMG settings](assets/trigno_sensor_config.gif)
 
 ##### EMG Configuration
