@@ -66,7 +66,7 @@ Project configuration is dependent on the nature of all recording components, so
     <div align="center">          
         <img src="assets/trigno_sensor_config.gif" alt="Modify EMG settings">  
     </div>    
-    1. Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
+    iv. Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
         1. Click `Input Devices` in the left-hand navigation pane
         2. If `Delsys Trigno` is not in the displayed list:
             1.	Click the `Add Device` button
