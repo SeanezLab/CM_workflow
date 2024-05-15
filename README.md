@@ -47,26 +47,22 @@ Should every session be a new project? Every timepoint?
 ![Creation of new project in QTM](assets/qtm_new_project.gif)
  
 7.	After clicking `OK`, you will be prompted to select a `.qtmproj` settings file
-    -	For now, it’s recommended to use the file at the location below, though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever)  
+    -	For now, it’s recommended to use the file at the location below, though most settings files should work since configuration of the cameras and other such settings don’t change often (if ever):  
     ```C:\Users\QTM\Documents\Settings\Settings.qtmproj```
   
 ![Select the settings file](assets/qtm_settings_file.png)
 ---
 
 ### Configuring a New Project
-Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.
-
-***If no EMGs or analog components are required:***
-1. No additional configuration is necessary, skip to [calibration](#calibration) 
-
+Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs. ***If no EMGs or analog components are required*** then no additional configuration is necessary. Move on to [calibration](#calibration) 
 
 #### EMG Configuration
-When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
+When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
 1. Start Delsys Control Utility by clicking the following icon  
 2. Pair sensors and verify connection (green in control utility indicates properly paired sensor)
 3. For each connected sensor:
     1. Click the gear icon
-    2. Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
+    2. Ensure each sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
     3. Click the `Apply and Close` button  
    
 ![Modify EMG settings](assets/trigno_sensor_config.gif)
@@ -76,7 +72,7 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
     2. If `Delsys Trigno` is not in the displayed list:
         1.	Click the `Add Device` button
         2.	Select `Delsys Trigno EMG` from the dropdown menu
-        3.	Click `OK` and `Delsys Tringo` will appear unchecked in the list of input devices  
+        3.	Click the `OK` button and `Delsys Tringo` will appear unchecked in the list of input devices  
   
 ![Add Delsys Trigno EMGs](assets/qtm_add_delsys.gif)
 
@@ -86,9 +82,9 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
 
 ![Enable Delsys Trigno](assets/qtm_enable_emg.gif)
 
-8. Give a name to every EMG that is connected (sensor are typically named by corresponding muscle)
+8. Give a name to every EMG that is connected (sensors are typically named by corresponding muscle)
 9. Uncheck the `Auxiliary data` checkbox for each sensor used
-    - Auxiliary data is IMU data, but using QTM is often more accurate than IMU data from Delsys sensors, so we don’t typically collect it
+    - Auxiliary data is IMU data, but using QTM is often more accurate than IMU data from Delsys sensors, so it's not typically collected
 10.	Click the `Apply` button
     - If analog sources are being used and haven't been configured, move on to [analog configuration](#analog-configuration). Otherwise, move on to [synchronization](#synchronization)
 
@@ -96,13 +92,12 @@ When using Delsys Trigno EMGs with QTM, the following configuration steps apply.
 ---
 
 #### Analog Configuration
-When using analog sources with QTM, the following steps apply.
-
+When using analog sources with QTM, the following steps apply:
 1. After clicking the gear icon to display settings, click `Input Devices` from the left-hand navigation pane
 2. Click the checkbox next to `USB-1608G (Serial: 01D99551)` (under the `Enabled`) column
-3. In the left-hand navigation pane, select `Input Devices > Analog Board`
-4. Click `Simultaneous start` in the `Sample Rate` section
-5. Change samples per second to same favorable value 
+3. In the left-hand navigation pane, select `Input Devices > Analog Boards > USB-1608G (Serial: 01D99551)`
+4. Click the `Simultaneous start` radio button in the `Sample rate` section
+5. Change `Sample rate`/`samples per second` to some favorable value 
     - What should this value be?  
     
 ![Enable analog sources](assets/qtm_enable_analog.gif)
