@@ -63,6 +63,7 @@ If using EMGs in conjunction with QTM:
     1. Click the gear icon
     2. Ensure sensor is in `EMG Only` mode, has a sampling rate of `2148Hz`, and that bandwidth is set to `10-850Hz`
     3. Click the `Apply and Close` button  
+  
 ![Modify EMG settings](assets/trigno_sensor_config.gif)
 
 4. Leaving Delsys Trigno Control Utility open, navigate back to QTM and click the gear icon to open settings 
