@@ -13,7 +13,11 @@
 6. [Section 5](#section-5)
 
 # Overview
-Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with CM studies: Qualisys Track Manager (QTM), Theia, and Visual3D.
+Three main pieces of software are used to coordinate the recording, annotation, and analysis of movement data associated with cervical myelopathy (CM) studies: 
+- Qualisys Track Manager (QTM)
+- Theia
+- Visual3D.
+
 Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instruction videos.  
 
 # QTM
