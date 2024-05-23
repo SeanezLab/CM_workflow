@@ -8,7 +8,7 @@
             1. [EMG Configuration](#emg-configuration)
             2. [Analog Configuration](#analog-configuration)
             3. [Synchronization](#synchronization)
-    4. [Beginning a New Session](#beginning-a-new-session)
+    4. [New Markerless Session](#new-markerless-session)
         1. [Create a New Session](#create-a-new-session)
         2. [Calibration](#calibration)
         3. [Session Settings](#session-settings)
@@ -145,7 +145,7 @@ When using QTM with EMGs or analog sources, synchronization settings must be cha
 #### [Back to Top](#back-to-top)
 ---
 
-## Beginning a New Session
+## New Markerless Session
 After [configuration](#configuring-a-new-project) is complete, a new recording session can be started by following the steps in this section
 
 ### Create a New Session
