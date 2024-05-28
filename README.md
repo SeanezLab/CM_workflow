@@ -51,6 +51,8 @@ Projects are primarily configured by two files:
     - Typically, this settings file is imported from a previous project becuase settings in this file don't change very often.  
 
 Should every session be a new project? Every timepoint?  
+
+The version of QTM used by the Seáñez lab is 2021.1 (build 6350) and *should not be updated.*
   
 #### [Back to Top](#back-to-top)
 ---
@@ -82,7 +84,7 @@ Should every session be a new project? Every timepoint?
 ### Configuring a New Project
 Project configuration is dependent on the nature of all recording components, so these steps will be different if using QTM with analog components and/or Delsys Trigno EMGs.  
   
-*If no EMGs or analog components are required, move on to [beginning a new session](#beginning-a-new-session).* No additional configuration will be necessary.
+*If no EMGs or analog components are required, move on to [beginning a new session](#new-markerless-session).* No additional configuration will be necessary.
 
 #### EMG Configuration
 When using Delsys Trigno EMGs with QTM, the following configuration steps apply:
