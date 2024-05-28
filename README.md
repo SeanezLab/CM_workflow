@@ -1,7 +1,8 @@
 <a id="back-to-top"></a>
 # CM Study Workflow Table of Contents
 1. [Overview](#overview)
-2. [QTM](#qtm)
+    1. [Additional Resources](#additional-resources) 
+3. [QTM](#qtm)
     1. [Beginning a New Project](#beginning-a-new-project)
         1. [Creating a New Project](#creating-a-new-project)
         2. [Configuring a New Project](#configuring-a-new-project)
@@ -12,9 +13,9 @@
         1. [Create a New Session](#create-a-new-session)
         2. [Calibration](#calibration)
         3. [Session Settings](#session-settings)
-3. [Theia](#theia)
+4. [Theia](#theia)
     1. [First](#)
-4. [Visual3D](#visual3d)
+5. [Visual3D](#visual3d)
     1. [First](#)
 
 # Overview
@@ -26,6 +27,15 @@ Three main pieces of software are used to coordinate the recording, annotation, 
 QTM calibrates and records the experiment session while Theia tracks and post-processes the captured movement data (joint detection, labeling, etc.). The data is then exported to Visual3D for additional analysis.
 
 Eventually, this repo will contain automation-focused improvements to the flow of data between these three applications. Currently, it just contains instructions adapted from internal instructional guides.  
+
+## Additional Resources
+- Videos:
+    - `C:\Users\Lab\Box\Seanez_Lab\Research_Material\Instructions and Protocols\Video Instructions`
+- CM Project Protocol:
+    - `C:\Users\Lab\Box\Seanez_Lab\Research_Material\Instructions and Protocols\CM`
+- Manuals:
+    - QTM: `C:\Users\Lab\Box\Seanez_Lab\Research_Material\User Manuals\Qualisys - Motion Capture`
+    - Theia: `C:\Users\Lab\Box\Seanez_Lab\Research_Material\User Manuals\Theia - Motion Capture`
 
 # QTM
 ## Beginning a New Project
