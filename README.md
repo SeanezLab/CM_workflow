@@ -37,6 +37,9 @@ Eventually, this repo will contain automation-focused improvements to the flow o
     - QTM: `C:\Users\Lab\Box\Seanez_Lab\Research_Material\User Manuals\Qualisys - Motion Capture`
     - Theia: `C:\Users\Lab\Box\Seanez_Lab\Research_Material\User Manuals\Theia - Motion Capture`
 
+#### [Back to Top](#back-to-top)
+---
+
 # QTM
 ## Beginning a New Project
 QTM manages everything by `project`. Projects are essentially workspaces in which QTM will provide default directories and files.  
